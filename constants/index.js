@@ -324,3 +324,25 @@ export const temples = [
     ],
   },
 ];
+
+export const upcomingEvents = [
+  {
+    name: 'Halloween Day for the Kids',
+    imageUrl: '/images/events/HalloweenEvent.png',
+    description:
+      'Special Halloween day for the Kids. Open to all Masonic families and Friends',
+    date: 'Saturday October 28th, 2023',
+  },
+  {
+    name: 'Windsor 403 2024 Installation',
+    imageUrl: '/images/events/Group 3installation.png',
+    description: 'The 2024 Installation of Windsor Lodge 403',
+    date: 'Friday January 19th, 2024',
+  },
+  {
+    name: 'For The Next 100 Years',
+    imageUrl: '/images/events/100year.png',
+    description: 'Join us as we unveil the work done on the Masonic Temple.',
+    date: 'Saturday January 20th, 2024,',
+  },
+];
