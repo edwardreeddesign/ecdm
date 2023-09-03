@@ -2,8 +2,11 @@ import Link from 'next/link';
 import Banner from './Banner';
 import Image from 'next/image';
 import { useState } from 'react';
+import { navLinks } from '../../constants';
+import { useRouter } from 'next/router';
 
 const Mobile = () => {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -11,8 +14,8 @@ const Mobile = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full flex flex-col z-50">
-      <Banner />
+    <nav className="fixed top-0 w-full flex flex-col z-50 shadow-shadow2">
+      {/* <Banner /> */}
       <div className="flex justify-between items-center px-4 bg-main1">
         <Link
           href="/"
@@ -24,7 +27,7 @@ const Mobile = () => {
             width="40"
             alt="navbar logo"
           />
-          <p className="uppercase tracking-[1.3px]">ecdm</p>
+          <p className="uppercase tracking-[1.3px]">ecdma</p>
         </Link>
         <div className="py-4 cursor-pointer z-50" onClick={toggle}>
           <div className={`line ${isOpen ? 'line1-open' : ''}`} />
@@ -37,7 +40,19 @@ const Mobile = () => {
           } bottom-${isOpen ? '0' : '100%'} h-${isOpen ? 'screen' : '0'}`}
         >
           <ul className="h-full flex flex-col justify-around items-center relative pt-10">
-            <li>Enter Links here</li>
+            {navLinks.map(link => (
+              <li key={link.name}>
+                <Link
+                  href={link.url}
+                  className={`${
+                    router.pathname === link.url ? 'mobile-active' : ''
+                  } text-light2 text-2xl tracking-wide cursor-pointer	`}
+                  onClick={toggle}
+                >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

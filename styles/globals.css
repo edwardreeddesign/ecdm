@@ -38,3 +38,53 @@ a {
 .line3-open {
   @apply -rotate-45 translate-x-0 -translate-y-[2px];
 }
+
+.mobile-active {
+  @apply relative text-accent1 font-bold transition-all duration-300 ease-in;
+}
+.mobile-active::after {
+  content: '';
+  height: 3px;
+  background: hsl(20, 77%, 72%);
+  position: absolute;
+  bottom: -12%;
+  right: 0%;
+  width: 100%;
+}
+
+.active {
+  position: relative;
+  color: hsl(20, 77%, 72%);
+  font-weight: bold;
+  transition: all 350ms ease;
+}
+
+.active::after {
+  content: '';
+  height: 3px;
+  background: hsl(20, 77%, 72%);
+  position: absolute;
+  bottom: -20%;
+  right: 0%;
+  width: 100%;
+}
+
+.btn {
+  @apply py-2 px-4 bg-main1 rounded-md shadow-shadow1 transition-all duration-300 hover:scale-95 border-none ease-in text-white;
+}
+
+.imageWrapperAmerican {
+  min-width: 10rem;
+  min-height: 10rem;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  border-radius: 5rem 0;
+  transition: all 350ms ease-in-out;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
