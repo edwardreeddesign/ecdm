@@ -4,8 +4,8 @@ import UpcomingCard from './UpcomingCard';
 const UpcomingEvents = () => {
   return (
     <div>
-      <h1 className="text-3xl text-center mb-4">Upcoming Events</h1>
-      <div className="flex flex-wrap justify-center  gap-4">
+      <h1>Upcoming Events</h1>
+      <div className="flex flex-wrap justify-center  gap-4 pb-24">
         {upcomingEvents.map(upcomingEvent => (
           <UpcomingCard
             upcomingEvent={upcomingEvent}

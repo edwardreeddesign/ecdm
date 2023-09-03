@@ -1,7 +1,7 @@
 import { titleReveal } from '../animations/animations';
 import Layout from '../components/Layout';
 import { motion } from 'framer-motion';
-import UpcomingEvents from '../components/events/upcoming';
+import UpcomingEvents from '../components/events/UpcomingEvents';
 
 const EventsPage = () => {
   return (
