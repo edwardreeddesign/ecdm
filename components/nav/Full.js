@@ -8,7 +8,7 @@ const Full = () => {
   const router = useRouter();
   return (
     <nav className="fixed top-0 w-full flex flex-col z-50">
-      <Banner />
+      {/* <Banner /> */}
       <div className="flex justify-between items-center  px-6 lg:px-10 bg-main1 shadow-shadow2">
         <Link
           href="/"

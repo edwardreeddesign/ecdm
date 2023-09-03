@@ -12,7 +12,7 @@ const LodgesPage = () => {
       >
         Our lodges
       </motion.h4>
-      <p className="text-thin text-xs uppercase">
+      <p className="font-thin text-xs uppercase">
         click icon on top left to see list of lodges
       </p>
       <iframe
