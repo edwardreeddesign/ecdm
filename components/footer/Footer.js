@@ -12,7 +12,7 @@ const Footer = () => {
         alt="logo"
         className="drop-shadow-2lg"
       />
-      <h1 className="font-thin tracking-widest uppercase">
+      <h1 className="font-thin tracking-widest uppercase text-center">
         essex county district masons association
       </h1>
       <p className="text-[.5rem] mb-2">&copy; 2023 ECDMA All Rights Reserved</p>
