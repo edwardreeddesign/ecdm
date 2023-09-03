@@ -14,6 +14,10 @@ const Layout = ({ children, title }) => {
             ? title + ' | Essex County District Masons'
             : 'Essex County District Masons'}
         </title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
       </Head>
       <motion.div
         variants={pageAnimation}
