@@ -10,7 +10,7 @@ const ImageModal = ({ imageUrl, onClose }) => {
 
   return (
     <div
-      className="fixed top-0 left-0 w-full h-full bg-dark3/70  flex items-center justify-center z-50"
+      className="fixed top-0 left-0 w-full h-full bg-dark1/90  flex items-center justify-center z-50"
       onClick={handleCloseClick}
     >
       <div className="max-w-full max-h-full p-4 bg-white">
@@ -22,7 +22,7 @@ const ImageModal = ({ imageUrl, onClose }) => {
           objectFit="contain"
         />
         <button
-          className="absolute top-4 right-4 text-dark1 text-xl"
+          className="absolute top-4 right-4 text-white text-xl"
           onClick={onClose}
         >
           Close
@@ -66,11 +66,11 @@ const UpcomingCard = ({ upcomingEvent }) => {
   }, [modalOpen]);
 
   return (
-    <div className="w-full max-w-sm md:max-w-xs  bg-dark1 flex flex-col items-center justify-around shadow-shadow1 rounded-md mb-8 p-4">
-      <h1 className="text-2xl text-center tracking-wide font-bold text-accent1 mb-4">
+    <div className="w-full max-w-sm md:max-w-xs  bg-accent1 flex flex-col items-center justify-around shadow-shadow1 rounded-md my-8  p-4">
+      <h1 className="text-2xl text-center tracking-wide font-bold text-dark1 mb-4">
         {upcomingEvent.name}
       </h1>
-      <p className="mb-4 text-sm text-light2">{upcomingEvent.description}</p>
+      <p className="mb-4 text-sm text-dark1">{upcomingEvent.description}</p>
       <button onClick={() => openModal(upcomingEvent.imageUrl)}>
         <div className="relative w-full h-80 mb-4">
           <Image
@@ -80,7 +80,7 @@ const UpcomingCard = ({ upcomingEvent }) => {
             objectFit="cover"
           />
         </div>
-        <p className="my-2 font-bold tracking-wider text-light2">
+        <p className="my-2 font-bold tracking-wider text-dark1">
           {upcomingEvent.date}
         </p>
       </button>
