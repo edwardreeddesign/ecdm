@@ -86,3 +86,12 @@ export const slideLeft = {
     transition: { type: 'spring', duration: 1.75 },
   },
 };
+
+export const photoFadeIn = {
+  hidden: { opacity: 0, scale: 0 },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 3.85, type: 'spring' },
+  },
+};

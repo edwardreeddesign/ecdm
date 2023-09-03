@@ -9,9 +9,11 @@ const Layout = ({ children, title }) => {
   return (
     <>
       <Head>
-        {title
-          ? title + ' | Essex County District Masons'
-          : 'Essex County District Masons'}
+        <title>
+          {title
+            ? title + ' | Essex County District Masons'
+            : 'Essex County District Masons'}
+        </title>
       </Head>
       <motion.div
         variants={pageAnimation}
@@ -22,7 +24,7 @@ const Layout = ({ children, title }) => {
         <div className="flex justify-between min-h-screen flex-col bg-white w-full pt-14">
           <ToastContainer position="top-center" limit={1} />
           <Nav />
-          <div>{children}</div>
+          <section className="overflow-hidden">{children}</section>
           <Footer />
         </div>
       </motion.div>

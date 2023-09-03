@@ -31,7 +31,7 @@ const Mobile = () => {
         </Link>
         <div className="py-4 cursor-pointer z-50" onClick={toggle}>
           <div className={`line ${isOpen ? 'line1-open' : ''}`} />
-          <div className={`line ${isOpen ? 'line2-open' : ''}`} />
+          <div className={`line line2 ${isOpen ? 'line2-open' : ''}`} />
           <div className={`line ${isOpen ? 'line3-open' : ''}`} />
         </div>
         <div

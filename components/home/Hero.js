@@ -1,6 +1,8 @@
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import BackgroundCircles from '../../helpers/BackgroundCircles';
 import Image from 'next/image';
+import BackgroundCircles from './BackgroundCircles';
+import { motion } from 'framer-motion';
+import { photoFadeIn } from '../../animations/animations';
 
 const Hero = () => {
   const [text, count] = useTypewriter({
@@ -16,12 +18,14 @@ const Hero = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center text-center z-20 bg-dark1">
       <BackgroundCircles />
-      <Image
-        src="https://res.cloudinary.com/du9uo1ao5/image/upload/v1680815276/Group_1hero_mnfhwc.png"
-        alt="Background Design"
-        height="200"
-        width="200"
-      />
+      <motion.div variants={photoFadeIn}>
+        <Image
+          src="https://res.cloudinary.com/du9uo1ao5/image/upload/v1680815276/Group_1hero_mnfhwc.png"
+          alt="Background Design"
+          height="200"
+          width="200"
+        />
+      </motion.div>
       <div className="z-30">
         <h2 className="text-sm uppercase font-thin text-gray-200 pb-2 pt-2 tracking-[15px]">
           Essex County District
