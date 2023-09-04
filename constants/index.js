@@ -346,3 +346,76 @@ export const upcomingEvents = [
     date: 'Saturday January 20th, 2024,',
   },
 ];
+
+export const trestleBoard = [
+  {
+    lodge: 'Thistle 34',
+    installation: 'December 27, 2023 at 8:00pm',
+    officialVisit: 'May 7, 2024 at 8:00pm',
+  },
+  {
+    lodge: 'St. Georges 41',
+    installation: 'January 4, 2024 at 7:30pm',
+    officialVisit: 'April 4, 2024 at 7:30pm',
+  },
+  {
+    lodge: 'Great Western 47',
+    installation: 'Dec 7, 2023 at 7:30pm',
+    officialVisit: 'TBA',
+  },
+  {
+    lodge: 'Leamington 290',
+    installation: 'June 17, 2024 at 7:30pm',
+    officialVisit: 'March 18, 2024 at 7:30pm',
+  },
+  {
+    lodge: 'Parvaim-Central 395',
+    installation: 'TBA',
+    officialVisit: 'TBA',
+  },
+  {
+    lodge: 'Windsor 403',
+    installation: 'January 19, 2024 at 7:30pm',
+    officialVisit: 'March 1, 2024 at 7:30pm',
+  },
+  {
+    lodge: 'Naphtali 413',
+    installation: 'TBA',
+    officialVisit: 'TBA',
+  },
+  {
+    lodge: 'Xenophon 448',
+    installation: 'December 21, 2023 at 8:00pm',
+    officialVisit: 'March 21, 2023 at 8:00pm',
+  },
+  {
+    lodge: 'Rose 500',
+    installation: 'Dec 13, 2023 at 7:30pm',
+    officialVisit: 'March 13, 2024 at 7:30pm',
+  },
+  {
+    lodge: 'Trinity 521',
+    installation: 'May 25, 2024 at 2pm',
+    officialVisit: 'March 4, 2024 at 7:30pm',
+  },
+  {
+    lodge: 'Border Cities 554',
+    installation: 'October 4, 2023 at 11am',
+    officialVisit: 'February 7, 2024 at 11am',
+  },
+  {
+    lodge: 'Harmony 579',
+    installation: 'December 2, 2023 at 2pm',
+    officialVisit: 'May 2, 2024 at 7:30pm',
+  },
+  {
+    lodge: 'Pelee 627',
+    installation: 'September 9, 2023 at 12pm',
+    officialVisit: 'September 9, 2023 at 12pm',
+  },
+  {
+    lodge: "St. Andrew's 642",
+    installation: 'December 8, 2023 at 7:00pm',
+    officialVisit: 'October 13, 2023 at 7:30pm',
+  },
+];

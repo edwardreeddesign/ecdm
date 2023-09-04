@@ -14,7 +14,18 @@ export default function Home() {
       <WhatIsFreemasonry />
       <District />
       <Banner />
-      <Lodges />
+      <div class="flex flex-col items-center justify-center">
+        <h1 className="text-4xl tracking-[10px] font-thin mb-2 underline">
+          R.E.M
+        </h1>
+        <h2 className="text-3xl font-semibold tracking-[12px] mb-1">RITUAL</h2>
+        <h2 className="text-3xl font-semibold tracking-[12px] mb-1">
+          EDUCATION
+        </h2>
+        <h2 className="text-3xl font-semibold tracking-[12px] mb-1">
+          MENTORSHIP
+        </h2>
+      </div>
       <BeOne />
       <Calendar />
     </Layout>

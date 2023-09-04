@@ -2,6 +2,7 @@ import { titleReveal } from '../animations/animations';
 import Layout from '../components/Layout';
 import { motion } from 'framer-motion';
 import UpcomingEvents from '../components/events/UpcomingEvents';
+import TrestleBoardInfo from '../components/events/TrestleBoardInfo';
 
 const EventsPage = () => {
   return (
@@ -22,6 +23,7 @@ const EventsPage = () => {
           />
         </div>
         <UpcomingEvents />
+        <TrestleBoardInfo />
       </div>
     </Layout>
   );

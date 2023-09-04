@@ -8,7 +8,7 @@ const AboutPage = () => {
     <Layout title="About">
       <motion.h4
         variants={titleReveal}
-        className="uppercase tracking-[20px] text-main1 text-lg md:text-2xl text-center mb-4 mt-2"
+        className="uppercase tracking-[20px] text-main1 text-lg md:text-2xl text-center mb-4 mt-8"
       >
         About Freemasonry
       </motion.h4>

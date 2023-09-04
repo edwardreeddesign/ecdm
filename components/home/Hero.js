@@ -16,7 +16,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-center text-center z-20 bg-dark1">
+    <div className="h-screen w-full flex flex-col items-center justify-center text-center z-20  bg-dark1">
       <BackgroundCircles />
       <motion.div variants={photoFadeIn}>
         <Image
@@ -35,6 +35,9 @@ const Hero = () => {
           <Cursor cursorColor="hsl(208, 100%, 31%)" />
         </h1>
       </div>
+      <h2 className="text-center text-main2 mt-8 text-3xl tracking-widest font-[Halant] font-light">
+        Not Just a Man. A Mason.
+      </h2>
     </div>
   );
 };

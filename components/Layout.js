@@ -25,7 +25,7 @@ const Layout = ({ children, title }) => {
         animate="show"
         exit="exit"
       >
-        <div className="flex justify-between min-h-screen flex-col bg-white w-full pt-14">
+        <div className="flex justify-between min-h-screen flex-col bg-white w-full pt-12">
           <ToastContainer position="top-center" limit={1} />
           <Nav />
           <section className="overflow-hidden">{children}</section>
