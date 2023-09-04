@@ -13,10 +13,10 @@ const TrestleBoardInfo = () => {
           className="border-2 border-main1 mb-4"
         />
       </motion.h4>
-      <h1 className="text-xl font-light mb-4 text-center">
+      <h1 className="text-xl font-light mb-4 text-center ">
         Installations and Official Visits
       </h1>
-      <div className="mb-8 grid md:grid-cols-4 md:gap-5">
+      <div className="mb-8 grid md:grid-cols-4 md:gap-5 ">
         {trestleBoard.map(trestle => (
           <TrestleBoardCard key={trestle.lodge} trestle={trestle} />
         ))}

@@ -1,6 +1,6 @@
 const TrestleBoardCard = ({ trestle }) => {
   return (
-    <div className="flex flex-col justify-center text-left  py-2 px-4 border-b-2 border-main1">
+    <div className="flex flex-col justify-center text-left  py-2 px-4 border-b-2 border-main1 ">
       <h2 className="text-2xl font-light">{trestle.lodge}</h2>
       <h3>
         Installation:{' '}
