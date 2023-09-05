@@ -189,12 +189,13 @@ export const temples = [
         ctaImage: '/navlogo.png',
         history:
           'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
-        meeting: 'Second Tuesday at 8:00 PM except for July and August',
-        installation: 'December 13, 2022 at 7:30 pm',
+        meeting:
+          'Meeting Second Tuesday of the Month Except July & August 7:30 pm',
+        installation: 'December 12, 2023 at 7:30 pm',
         website: null,
         facebook: null,
         slug: 'naphtali-lodge',
-        officialVisit: 'March 14, 2023 at 7:30 pm',
+        officialVisit: 'March 12, 2023 at 7:30 pm',
       },
     ],
   },
@@ -380,8 +381,8 @@ export const trestleBoard = [
   },
   {
     lodge: 'Naphtali 413',
-    installation: 'TBA',
-    officialVisit: 'TBA',
+    installation: 'December 12, 2023 at 7:30pm',
+    officialVisit: 'March 12, 2024 at 7:30pm',
   },
   {
     lodge: 'Xenophon 448',

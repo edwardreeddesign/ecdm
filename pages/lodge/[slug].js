@@ -1,71 +1,88 @@
-/* eslint-disable @next/next/no-img-element */
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 import { temples } from '../../constants';
+import Image from 'next/image';
+import {
+  photoFadeIn,
+  slideLeft,
+  textVariant,
+  titleReveal,
+} from '../../animations/animations';
 
 const LodgePage = ({ lodge }) => {
   return (
     <Layout title={lodge?.name}>
-      <div className="bg-primaryDark text-white min-h-screen w-screen flex  space-y-0 items-center justify-center text-center overflow-hidden relative px-5">
-        <Link href="/#lodges" className="absolute top-0 left-5 ">
-          <button className="heroButton">Back to Lodges</button>
-        </Link>
-        <div className="flex flex-col gap-4 px-6 md:flex-row ">
-          <img
+      <div className=" ">
+        <motion.div
+          variants={photoFadeIn}
+          className="w-full h-[30rem] relative"
+        >
+          <Image
             src={lodge?.mainImage}
             alt={lodge?.name}
-            className="h-[640px] rounded-xl object-cover mt-10 md:mt-0"
+            fill
+            className=" object-cover mt-10 md:mt-0 md:object-middle mb-4"
           />
-          <div className="flex flex-col justify-between">
-            <div className="space-y-2 text-left mt-2 md:mt-0 md:space-y-4 lg:space-y-8 mb-4 md:mb-0">
-              <h1 className="text-2xl md:text-4xl text-gray-400 font-semibold">
-                {lodge?.name} A.F. & A.M.
-              </h1>
-              <div>
-                <h2 className="md:text-xl text-gray-300 font-thin">
-                  A Brief History
-                </h2>
-                <p className="text-gray-400 font-light md:text-2xl">
-                  {lodge?.history}
-                </p>
-              </div>
-              <div>
-                <h2 className="md:text-xl text-gray-300 font-thin">Meetings</h2>
-                <p className="text-gray-400 font-light md:text-2xl">
-                  {lodge?.meeting}
-                </p>
-              </div>
+        </motion.div>
+        <div className="flex flex-col justify-between px-4 md:px-8 lg:px20">
+          <div className="space-y-2 text-left mt-10 md:mt-0 md:space-y-4 lg:space-y-8 mb-4 md:mb-0">
+            <motion.h4
+              variants={titleReveal}
+              className="uppercase tracking-[20px] text-main1 text-lg md:text-2xl text-center mb-4 mt-2 pt-10"
+            >
+              {lodge?.name}{' '}
+              <span className="tracking-widest"> A.F. & A.M.</span>
+            </motion.h4>
+
+            <div>
+              <motion.h2
+                variants={textVariant}
+                className="text-xl font-light mb-2  "
+              >
+                A Brief History
+              </motion.h2>
+              <p className=" font-light ">{lodge?.history}</p>
             </div>
-            <div className="flex align-center justify-between md:justify-start md:gap-4">
-              {lodge?.website ? (
-                <button className="primaryBtn">
-                  <a
-                    href={lodge?.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Lodge Website
-                  </a>
-                </button>
-              ) : (
-                ''
-              )}
-              {lodge?.facebook ? (
-                <button className="primaryBtn">
-                  <a
-                    href={lodge?.facebook}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Facebook
-                  </a>
-                </button>
-              ) : (
-                ''
-              )}
+            <div>
+              <motion.h2
+                variants={textVariant}
+                className="text-xl font-light mb-2"
+              >
+                Meetings
+              </motion.h2>
+              <p className=" font-light mb-6 ">{lodge?.meeting}</p>
             </div>
           </div>
+          <div className="flex align-center gap-4 md:justify-start md:gap-4">
+            {lodge?.website ? (
+              <a
+                href={lodge?.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="py-3 px-2 bg-accent1 text-dark1 rounded-md hover:scale-95 transition-all duration-200 shadow-shadow1"
+              >
+                Lodge Website
+              </a>
+            ) : (
+              ''
+            )}
+            {lodge?.facebook ? (
+              <a
+                href={lodge?.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="py-3 px-2 bg-main1 text-white rounded-md hover:scale-95 transition-all duration-200 shadow-shadow1"
+              >
+                Facebook
+              </a>
+            ) : (
+              ''
+            )}
+          </div>
+          <Link href="/lodges" className="my-4">
+            Back to Lodges
+          </Link>
         </div>
       </div>
     </Layout>
