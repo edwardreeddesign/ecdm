@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import { whatIsFreemasonry } from '../../constants';
 import { staggerContainer, textVariant } from '../../animations/animations';
 import Image from 'next/image';
+import { useScroll } from '../../helpers/useScroll';
 
 const WhatIsFreemasonryCard = ({ whatIsMasonry }) => {
   return (
@@ -52,9 +53,12 @@ const WhatIsFreemasonryCard = ({ whatIsMasonry }) => {
 };
 
 const WhatIsFreemasonry = () => {
+  const [element, controls] = useScroll();
   return (
     <motion.section
       variants={staggerContainer}
+      ref={element}
+      animate={controls}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}

@@ -80,8 +80,11 @@ const UpcomingCard = ({ upcomingEvent }) => {
             objectFit="cover"
           />
         </div>
-        <p className="my-2 font-bold tracking-wider text-dark1">
+        <p className="mt-2 font-bold tracking-wider text-dark1">
           {upcomingEvent.date}
+        </p>
+        <p className=" font-[800] tracking-wider text-dark1">
+          {upcomingEvent.location}
         </p>
       </button>
 

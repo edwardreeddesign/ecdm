@@ -16,6 +16,17 @@ export const pageAnimation = {
   exit: { opacity: 0 },
 };
 
+export const scrollReveal = {
+  hidden: { opacity: 0, scale: 1, y: '5rem' },
+  show: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.5 } },
+  transition: {
+    type: 'spring',
+    duration: 0.5,
+    when: 'beforeChildren',
+    staggerChildren: 0.3,
+  },
+};
+
 export const circleAnim = {
   hidden: { opacity: 0 },
   show: {
@@ -77,6 +88,20 @@ export const slideLeft = {
   hidden: {
     opacity: 0,
     x: '-15rem',
+    scale: 0.25,
+  },
+  show: {
+    opacity: 1,
+    x: 0,
+    scale: 1,
+    transition: { type: 'spring', duration: 1.75 },
+  },
+};
+
+export const slideRight = {
+  hidden: {
+    opacity: 0,
+    x: '15rem',
     scale: 0.25,
   },
   show: {

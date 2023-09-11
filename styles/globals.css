@@ -125,3 +125,27 @@ p {
     height: 300px; /* Adjust the height as needed */
   }
 }
+
+.card-hovered:hover {
+  transform: scale(1.1); /* Increase the scale on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.image-hovered:hover {
+  transform: scale(0.9); /* Increase the scale on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.formControl {
+  @apply mb-3 flex-1;
+}
+
+.formControl textarea,
+.formControl input {
+  @apply w-full p-3 mb-3 bg-main1/80 transition-all duration-300 ease-in-out rounded border-none text-light2 shadow-shadow2;
+}
+
+.formControl textarea:focus,
+.formControl input:focus {
+  @apply text-dark1 bg-light1 border-main1;
+}

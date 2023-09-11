@@ -2,12 +2,20 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import {
   photoFadeIn,
+  scrollReveal,
   slideLeft,
   titleReveal,
 } from '../../animations/animations';
+import { useScroll } from '../../helpers/useScroll';
 const BeOne = () => {
+  const [element, controls] = useScroll();
   return (
-    <div className="h-[40rem] flex relative  text-center    justify-evenly items-center mx-auto">
+    <motion.div
+      variants={scrollReveal}
+      ref={element}
+      animate={controls}
+      className="h-[40rem] flex relative  text-center    justify-evenly items-center mx-auto"
+    >
       <div className="w-full min-h-[10rem] bg-accent1 flex flex-col align-center justify-center my-8 shadow-lg  md:flex-row">
         <div className="flex flex-col align-center justify-center w-full">
           <motion.h1
@@ -28,7 +36,7 @@ const BeOne = () => {
           </motion.h1>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default BeOne;

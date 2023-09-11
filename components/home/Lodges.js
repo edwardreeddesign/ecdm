@@ -15,7 +15,7 @@ const LodgeCard = ({ temple }) => {
           alt={temple.location}
         />
       </div>
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-between p-4">
         <div>
           <p className="text-xs text-white mt-1 mb-2">{temple.address}</p>

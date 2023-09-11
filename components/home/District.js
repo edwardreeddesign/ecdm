@@ -1,22 +1,37 @@
 import { motion } from 'framer-motion';
-import { titleReveal } from '../../animations/animations';
+import {
+  photoFadeIn,
+  scrollReveal,
+  slideLeft,
+  slideRight,
+  titleReveal,
+} from '../../animations/animations';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useScroll } from '../../helpers/useScroll';
 
 const District = () => {
+  const [element, controls] = useScroll();
   return (
     <motion.section
-      variants={titleReveal}
+      variants={scrollReveal}
+      ref={element}
+      animate={controls}
       initial="hidden"
-      animate="show"
       exit="exit"
       className="flex flex-col  text-center my-12 "
     >
-      <h1 className="text-lg uppercase tracking-[20px] md:text-3xl text-main1 mb-10 font-thin">
+      <motion.h1
+        variants={titleReveal}
+        className="text-lg uppercase tracking-[20px] md:text-3xl text-main1 mb-10 font-thin"
+      >
         District Association
-      </h1>
+      </motion.h1>
       <div className="flex flex-col lg:flex-row mx-8 md:mx-20">
-        <div className="flex flex-col items-center justify-center flex-1">
+        <motion.div
+          variants={slideLeft}
+          className="flex flex-col items-center justify-center flex-1"
+        >
           <Image
             src="/images/districtMap.png"
             alt="District Map"
@@ -24,8 +39,11 @@ const District = () => {
             width="500"
             className="rounded-md shadow-shadow2 mb-8"
           />
-        </div>
-        <div className="flex flex-col items-center justify-center space-y-10  px-10 md:px-24 flex-1 text-left">
+        </motion.div>
+        <motion.div
+          variants={slideRight}
+          className="flex flex-col items-center justify-center space-y-10  px-10 md:px-24 flex-1 text-left"
+        >
           <p className="leading-5">
             The purpose of the Essex County District Masonic Association is to
             promote Masonry in general, to communicate with members thereby
@@ -49,7 +67,7 @@ const District = () => {
               View the lodges
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
     </motion.section>
   );

@@ -1,8 +1,18 @@
 import Link from 'next/link';
+import { motion } from 'framer-motion';
+import { useScroll } from '../../helpers/useScroll';
+import { scrollReveal } from '../../animations/animations';
 
 const WhatIsFreemasonry = () => {
+  const [element, controls] = useScroll();
+
   return (
-    <div className=" pb-4">
+    <motion.div
+      variants={scrollReveal}
+      ref={element}
+      animate={controls}
+      className=" pb-4"
+    >
       <div className="flex flex-col md:flex-row  my-8">
         <div className="flex flex-col items-center justify-between  bg-accent1 w-full px-4 py-8 h-[24rem]">
           <h1 className="text-3xl tracking-wider mb-4 font-semibold">
@@ -49,7 +59,7 @@ const WhatIsFreemasonry = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default WhatIsFreemasonry;
