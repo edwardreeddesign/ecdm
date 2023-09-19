@@ -42,7 +42,22 @@ const LodgePage = ({ lodge }) => {
               >
                 A Brief History
               </motion.h2>
-              <p className=" font-light ">{lodge?.history}</p>
+              <p className=" font-light mb-2 ">{lodge?.historyParagraph1}</p>
+              <p className=" font-light mb-2">{lodge?.historyParagraph2}</p>
+              <p className=" font-light mb-2">{lodge?.historyParagraph3}</p>
+              {lodge?.historyParagraph4 ? (
+                <p className=" font-light mb-2">{lodge?.historyParagraph4}</p>
+              ) : (
+                ''
+              )}
+            </div>
+            <div className="flex items-center justify-center">
+              <Image
+                src={lodge?.ctaImage}
+                alt="Lodge Logo"
+                width={200}
+                height={200}
+              />
             </div>
             <div>
               <motion.h2

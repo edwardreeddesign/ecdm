@@ -7,7 +7,7 @@ const TrestleBoardInfo = () => {
   return (
     <div>
       <motion.h4 className="text-4xl font-light my-4">
-        Trestle Board
+        Quick View Trestle Board
         <motion.hr
           variants={slideLeft}
           className="border-2 border-main1 mb-4"
