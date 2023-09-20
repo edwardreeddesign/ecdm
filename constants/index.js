@@ -347,7 +347,7 @@ export const upcomingEvents = [
   // },
   {
     name: 'Football Game and Tailgate Party',
-    imageUrl: '/images/events/Football-Poster.png',
+    imageUrl: '/images/events/football.png',
     description:
       'Raffle for Michigan Wolverines vs Purdue Boilermakers. Includes a tailgate party in the stadium parking lot with Ross Mitton of Assante Wealth Management at his converted ambulance - Mbulance and barbeque trailer.',
     date: 'draw date October 27, 2023',
