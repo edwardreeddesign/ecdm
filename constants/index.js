@@ -345,6 +345,14 @@ export const upcomingEvents = [
   //   date: 'Monday September 18, 2023',
   //   location: 'Essex Masonic Hall Essex',
   // },
+  {
+    name: 'Football Game and Tailgate Party',
+    imageUrl: '/images/events/Football Poster.png',
+    description:
+      'Raffle for Michigan Wolverines vs Purdue Boilermakers. Includes a tailgate party in the stadium parking lot with Ross Mitton of Assante Wealth Management at his converted ambulance - Mbulance and barbeque trailer.',
+    date: 'draw date October 27, 2023',
+    location: 'Windsor Masonic Temple Coffee Club',
+  },
 
   {
     name: 'Halloween Day for the Kids',
