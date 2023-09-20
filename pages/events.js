@@ -112,6 +112,7 @@ const EventsPage = () => {
                   src="/images/events/trestle2023-2024Back.png"
                   alt="trestle board front"
                   layout="fill"
+                  objectCover
                 />
               </button>
             </div>
