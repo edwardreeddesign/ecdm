@@ -44,7 +44,7 @@ export default function Document() {
           content="Essex County District Masonic Association"
         />
         <meta name="robots" content="index, follow" />
-        <meta name="robots" content="noindex, nofollow" />
+
         <html lang="en" />
         <link rel="icon" href="/favicon.ico" />
 
