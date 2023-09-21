@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ecdma.ca
+
+# Sitemaps
+Sitemap: https://ecdma.ca/sitemap.xml

@@ -5,19 +5,20 @@ import Nav from './nav/Nav';
 import { pageAnimation } from '../animations/animations';
 import Footer from './footer/Footer';
 
-const Layout = ({ children, title }) => {
+const Layout = ({ children, title, description }) => {
+  const defaultTitle = 'Essex County District Masonic Association';
+  const defaultDescription = 'Promoting Freemasonry in Essex County, Ontario.';
   return (
     <>
       <Head>
-        <title>
-          {title
-            ? title + ' | Essex County District Masons'
-            : 'Essex County District Masons'}
-        </title>
+        <title>{title ? `${title} | ${defaultTitle}` : defaultTitle}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charSet="UTF-8" />
+        <meta name="description" content={description || defaultDescription} />
         <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
+          name="keywords"
+          content="Freemasonry, Windsor Freemasonry, Essex Ontario Freemasonry, Essex County, Masons, Fraternity, Lodge, Masonic Temple, Essex County District Masons"
+        />
       </Head>
       <motion.div
         variants={pageAnimation}
