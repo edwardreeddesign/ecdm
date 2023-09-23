@@ -123,7 +123,7 @@ export const temples = [
       {
         name: 'Leamington 290',
         image: '/images/lodges/leamington.png',
-        mainImage: '/images/lodges/leamingtonMain.jpeg',
+        mainImage: '/images/lodges/leamingtonMain.png',
         ctaImage: '/images/logos/logo.png',
         historyParagraph1:
           'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
