@@ -76,10 +76,15 @@ export const temples = [
       {
         name: 'Parvaim Central 395',
         image: '/images/lodges/essex.png',
-        mainImage: '/images/logos/logo.png',
-        ctaImage: '/images/lodges/parvaimsqareandcompass.jpeg',
+        mainImage: '/images/logos/parvaimMain.jpeg',
+        ctaImage: '/images/lodges/parvaimsqareandcompass1.jpeg',
         historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+          'The current building was finished in 1964 by (Carl) Sweet Construction. The lot was formerly the Essex Public School location.',
+        historyParagraph2:
+          'Central Lodge No. 402 dates from 1883. Amalgamation with Parvaim No. 395 from Cottam occurred in 2011. It is common to take the lowest lodge number when Lodges amalgamate.',
+        historyParagraph3:
+          "The architect's name and blueprints are in the Temple Vault. There are no pictures of the original 402 Lodge, and we are unsure if it was actually at the same location. With the public school being there, it is doubtful. ",
+
         meeting:
           'First Wednesday except for January (2nd Wednesday),July and August',
         installation: 'June 7, 2023 at 7:30 pm',
