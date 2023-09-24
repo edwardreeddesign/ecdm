@@ -21,7 +21,7 @@ const Full = () => {
             alt="navbar logo"
           />
           <p className="uppercase tracking-[1.3px]">
-            essex county district masons
+            essex county district MASONIC ASSOCIATION
           </p>
         </Link>
 
