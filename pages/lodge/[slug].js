@@ -16,7 +16,7 @@ const LodgePage = ({ lodge }) => {
       <div className=" ">
         <motion.div
           variants={photoFadeIn}
-          className="w-full h-[30rem] relative"
+          className="w-full h-[30rem] md:h-[55rem] relative"
         >
           <Image
             src={lodge?.mainImage}
