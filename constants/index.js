@@ -76,7 +76,7 @@ export const temples = [
       {
         name: 'Parvaim Central 395',
         image: '/images/lodges/essex.png',
-        mainImage: '/images/logos/parvaimMain.jpeg',
+        mainImage: '/images/lodges/parvaimMain.jpeg',
         ctaImage: '/images/lodges/parvaimsqareandcompass1.jpeg',
         historyParagraph1:
           'The current building was finished in 1964 by (Carl) Sweet Construction. The lot was formerly the Essex Public School location.',
