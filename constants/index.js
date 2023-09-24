@@ -75,7 +75,7 @@ export const temples = [
     lodges: [
       {
         name: 'Parvaim Central 395',
-        image: '/images/lodges/essex.png',
+        image: 'public/images/lodges/essex.png',
         mainImage: '/images/lodges/parvaimMain.jpeg',
         ctaImage: '/images/lodges/parvaimsqareandcompass1.jpeg',
         historyParagraph1:
