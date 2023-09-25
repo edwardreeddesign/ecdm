@@ -88,6 +88,7 @@ const EventsPage = () => {
           />
         </div>
         <div>
+          <p className="text-center text-xl">Click Image for full size</p>
           <div className="flex flex-col items-center justify-center gap-2 md:flex-row mb-4">
             <div className="relative w-full h-80 md:h-96 mb-4">
               <button
@@ -99,6 +100,7 @@ const EventsPage = () => {
                   src="/images/events/trestle2023-2024Front.png"
                   alt="trestle board front"
                   layout="fill"
+                  objectFit="contain"
                 />
               </button>
             </div>
@@ -112,7 +114,7 @@ const EventsPage = () => {
                   src="/images/events/trestle2023-2024Back.png"
                   alt="trestle board front"
                   layout="fill"
-                  objectCover
+                  objectFit="contain"
                 />
               </button>
             </div>
