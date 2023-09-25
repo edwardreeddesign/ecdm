@@ -98,17 +98,20 @@ const AboutPage = () => {
             <h5 className="text-2xl font-thin underline mb-2 text-center">
               Windsor
             </h5>
-            <li className="mb-2  ">
+            <li className="mb-2  text-center">
               Coffee Club - Monday, Wednesday & Friday mornings - 8:30 to 10:30
               AM - ballroom lounge
             </li>
-            <li className="mb-2 ">Mentoring - every Wednesday - 7:00 PM</li>
+            <li className="mb-2 text-center">
+              Mentoring - every Wednesday - 7:00 PM Open to all Masons in the
+              District.
+            </li>
           </ul>
           <ul>
             <h5 className="text-2xl font-thin underline mb-2 text-center">
               Amherstburg
             </h5>
-            <li className="mb-2">
+            <li className="mb-2 text-center">
               Friday Get-together - bring or order-in food - children welcome -
               5:00ish to ?
             </li>
@@ -117,13 +120,15 @@ const AboutPage = () => {
             <h5 className="text-2xl font-thin underline mb-2 text-center">
               Tilbury
             </h5>
-            <li className="mb-2">Coffee - every Saturday morning at 9:30 AM</li>
+            <li className="mb-2 text-center">
+              Coffee - every Saturday morning at 9:30 AM
+            </li>
           </ul>
           <ul>
             <h5 className="text-2xl font-thin underline mb-2 text-center">
               Kingsville & Leamington
             </h5>
-            <li className="mb-2">
+            <li className="mb-2 text-center">
               Periodic informal events - please refer to the event notices and
               calendar for coming events
             </li>
