@@ -56,11 +56,12 @@ export const temples = [
         mainImage: '/images/logos/logo.png',
         ctaImage: '/images/lodges/thistlelodge.png',
         historyParagraph1:
-          "Freemasonry spread in the 'new world' as the British Army established colonial rule. The officers were often Freemasons and they, through their association with civilian leaders in the community, established lodges. Such was the case in Amherstburg, a town on the Detroit River created in 1796 following the establishment of Fort Malden and the King's Navy Yard. The articles presented here illustrate the raising of Adoniram Lodge in the late 1790s until it's abrupt closure at the outbreak of war in 1812. A Freemasons lodge would not reappear in Amherstburg until the formation of Thistle Lodge in 1849.",
+          "Freemasonry spread in the 'new world' as the British Army established colonial rule. The officers were often Freemasons and they, through their association with civilian leaders in the community, established lodges. Such was the case in Amherstburg, a town on the Detroit River created in 1796 following the establishment of Fort Malden and the King's Navy Yard. Adoniram Lodge was formed in the late 1790s and was active until it's abrupt closure at the outbreak of war in 1812. A Freemasons lodge would not reappear in Amherstburg until the formation of Thistle Lodge in 1849.",
+
         meeting: 'First Tuesday at 8:00 PM except for July and August',
         installation: 'December 27, 2023 - 8:00pm',
         website: null,
-        facebook: 'https://www.facebook.com/ThistleAmherstburg/',
+        facebook: null,
         slug: 'thistle-lodge',
         officialVisit: 'May 7, 2024 at 8:00 pm',
       },
