@@ -4,6 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import Nav from './nav/Nav';
 import { pageAnimation } from '../animations/animations';
 import Footer from './footer/Footer';
+import Image from 'next/image';
 
 const Layout = ({ children, title, description }) => {
   const defaultTitle = 'Essex County District Masonic Association';
@@ -30,6 +31,14 @@ const Layout = ({ children, title, description }) => {
           <ToastContainer position="top-center" limit={1} />
           <Nav />
           <section className="overflow-hidden">{children}</section>
+          <div class="flex flex-col items-center justify-center h-16 w-full p-6 bg-main1 relative  shadow-shadow1">
+            <Image
+              src="/images/logos/whiteOntarioMasons.png"
+              alt="Ontario Masons Branding"
+              layout="fill"
+              objectFit="contain"
+            />
+          </div>
           <Footer />
         </div>
       </motion.div>

@@ -7,27 +7,27 @@ import Lodges from '../components/home/Lodges';
 import BeOne from '../components/home/BeOne';
 import Calendar from '../components/home/Calendar';
 import LodgeBrief from '../components/home/LodgeBrief';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <Layout title="Home">
       <Hero />
       <WhatIsFreemasonry />
-      <District />
+      {/* <District /> */}
+
+      <Image
+        src="/images/logos/njam1.jpg"
+        alt="Not just a man"
+        height={384}
+        width={500}
+        objectFit="contain"
+        className="flex flex-col w-full m-auto shadow-shadow1 mt-10"
+      />
+
       <Banner />
       <LodgeBrief />
-      <div class="flex flex-col items-center justify-center">
-        <h1 className="text-4xl tracking-[10px] font-thin mb-2 underline">
-          R.E.M
-        </h1>
-        <h2 className="text-3xl font-semibold tracking-[12px] mb-1">RITUAL</h2>
-        <h2 className="text-3xl font-semibold tracking-[12px] mb-1">
-          EDUCATION
-        </h2>
-        <h2 className="text-3xl font-semibold tracking-[12px] mb-1">
-          MENTORSHIP
-        </h2>
-      </div>
+
       <BeOne />
       <Calendar />
     </Layout>
