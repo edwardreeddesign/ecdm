@@ -40,13 +40,23 @@ const LodgePage = ({ lodge }) => {
                 variants={textVariant}
                 className="text-xl font-light mb-2  "
               >
-                A Brief History
+                Lodge History
               </motion.h2>
               <p className=" font-light mb-2 ">{lodge?.historyParagraph1}</p>
               <p className=" font-light mb-2">{lodge?.historyParagraph2}</p>
               <p className=" font-light mb-2">{lodge?.historyParagraph3}</p>
               {lodge?.historyParagraph4 ? (
                 <p className=" font-light mb-2">{lodge?.historyParagraph4}</p>
+              ) : (
+                ''
+              )}
+              {lodge?.historyParagraph5 ? (
+                <p className=" font-light mb-2">{lodge?.historyParagraph5}</p>
+              ) : (
+                ''
+              )}
+              {lodge?.historyParagraph6 ? (
+                <p className=" font-light mb-2">{lodge?.historyParagraph6}</p>
               ) : (
                 ''
               )}
