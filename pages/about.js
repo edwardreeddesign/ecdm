@@ -3,6 +3,7 @@ import { scrollReveal, slideLeft, titleReveal } from '../animations/animations';
 import Layout from '../components/Layout';
 import { motion } from 'framer-motion';
 import { useScroll } from '../helpers/useScroll';
+import YoutubeEmbed from '../components/YoutubeEmbed';
 
 const AboutPage = () => {
   const [element, controls] = useScroll();
@@ -10,10 +11,14 @@ const AboutPage = () => {
     <Layout title="About">
       <motion.h4
         variants={titleReveal}
-        className="uppercase tracking-[20px] text-main1 text-lg md:text-2xl text-center mb-4 mt-8"
+        className="uppercase tracking-[20px] text-main1 text-lg md:text-2xl text-center mb-6 mt-20"
       >
         About Freemasonry
       </motion.h4>
+
+      <div className="mx-6">
+        <YoutubeEmbed />
+      </div>
 
       <div className="space-y-10 px-4 md:px-8 lg:px-16 mb-8">
         <motion.h4 className="text-4xl font-light my-2">
