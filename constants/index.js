@@ -233,7 +233,23 @@ export const temples = [
 
         ctaImage: '/images/lodges/greatwesterncta.jpeg',
         historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+          'A close examination of our Charter will revile two numbers in the lower left corner of this most valuable and important document. The number 23 appears and is crossed out and number 47 is in its place. Why?',
+        historyParagraph2:
+          'This goes back to the forming of Grand  Lodge in 1855. At the time, there were 39 regular and warranted lodge in Ontario under the Grand Lodge of Canada. These lodges were assigned a number based on the date of their formation. Great Western was assigned number 23.',
+        historyParagraph3:
+          'There was the time two Grand Lodges operating in Ontario. The Provincial Grand Lodge and the Grand Lodge of Canada. The Provincial Grand Lodge was warranted by the Grand Lodge of England. The Grand Lodge of Canada was independent and functioned on its own. The Provincial Grand Lodge was losing influence. Lodges under its jurisdiction were drifting away. Added to that, the Grand Lodge of England, as had been its usual practice for whatever reason, failed to return correspondence, or provide direction to the Provincial Grand Lodge. Their situation was becoming desperate.',
+        historyParagraph4:
+          'In an attempt to motivate the Grand Lodge of England, a committee was formed to draft a letter to reiterate the problems facing them. They mentioned the neglect and indifference on the part of the Grand Lodge of England to all the Canadian lodges. It was also mentioned that the Grand Lodge of Canada were much more accommodating and welcoming of the Provincial Grand Lodge. As they drafted their correspondence, it became apparent to them that Most Worshipful Master Wilson and the Grand Lodge of Canada were not the evil transgressors they been led to believe.',
+        historyParagraph5:
+          'They petitioned the Grand Master of the Grand Lodge of England to grant them independence. He replied to their points of concern, but they fell short of the desires of the Provincial Grand Lodge. It was felt, as relayed to the English Grand Master that his reply was not to their agreement and that there would scarily be a lodge in Ontario which would be loyal to the Grand Lodge of England. The time had passed, and they were not in any mood for the delays and ignorance of the Grand Lodge of England.',
+        historyParagraph6:
+          'At this time, Most Worshipful Master Wilson continued his friendly overtures to the Provincial Grand Lodge making his desire for unification of the two Grand Lodges well known. The Provincial Grand Lodge declared their independence and were recognized by many Grand Lodges, including the Grand Lodge of Canada, Grand Lodge of Ireland and many in the U.S.',
+        historyParagraph7:
+          'Most Worshipful Master Wilson still believed in unification and made that known during his address to the Provincial Grand Lodge meeting.',
+        historyParagraph8:
+          'M.W. Brother Wilson believed so strongly in unification of the Grand Lodges that he asked to “resign his gavel into the hands of the brethren to elect a successor in his stead” to carry on with the proposed union. The brethren felt that M.W. Brother Wilson was the best man to pilot the unification that they reelected him as Grand Master.  On the 14th of July 1858, at a meeting held in King Solomon’s Lodge in Toronto, the resolution passed unanimously. The merger of the Provincial Grand Lodge and the Grand Lodge of Canada had been concluded. Freemasons in Ontario were united under one banner.',
+        historyParagraph9:
+          'In 1859, the numbering of lodges was redone to include the lodges who were previously part of the Provincial Grand Lodge, again, according to their date of formation. Great Western was renumbered 47 and still stands today. Thistle Lodge #19 renumbered to 34 in 1859',
         meeting: 'First Thursday at 7:30 PM except for July and August',
         installation: 'December 7, 2023 at 7:30 pm ',
         website: null,
@@ -253,7 +269,7 @@ export const temples = [
           "Heading this group of Masons was our Late Brother George E. Copeland, founder of Copeland's Book Store, which still carries his name. Great Western Lodge granted permission and this was forwarded to Grand Lodge for approval. On July 13, 1883, at their annual convocation of the Grand lodge of Canada, a motion was passed to authorize the organizing under dispensation of Windsor Lodge. The following year at the next annual convocation of July 9th, 1884, the charter was granted.",
         historyParagraph3:
           'Windsor Lodge No. 403 was instituted and dedicated on August 13, 1884.',
-        ctaImage: '/images/logos/logo.png',
+        ctaImage: '/images/lodges/windsorCta.png',
         meeting:
           'First Friday at 7:30 PM except for July and August. If first Friday begins a holiday weekend, the meeting is held on the second Friday',
         installation: 'January 19, 2024 at 7:30 pm',

@@ -60,6 +60,21 @@ const LodgePage = ({ lodge }) => {
               ) : (
                 ''
               )}
+              {lodge?.historyParagraph7 ? (
+                <p className=" font-light mb-2">{lodge?.historyParagraph7}</p>
+              ) : (
+                ''
+              )}
+              {lodge?.historyParagraph8 ? (
+                <p className=" font-light mb-2">{lodge?.historyParagraph8}</p>
+              ) : (
+                ''
+              )}
+              {lodge?.historyParagraph9 ? (
+                <p className=" font-light mb-2">{lodge?.historyParagraph9}</p>
+              ) : (
+                ''
+              )}
             </div>
             <div className="flex items-center justify-center">
               <Image
