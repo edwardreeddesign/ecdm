@@ -296,7 +296,7 @@ export const temples = [
       },
       {
         name: 'Trinity Lodge 521',
-        mainImage: '/images/lodges/trinitymain.jpg',
+        mainImage: '/images/lodges/trinityMain.jpeg',
         secondImage: '',
         thirdImage: '',
         fourthImage: '',
