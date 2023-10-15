@@ -397,6 +397,14 @@ export const upcomingEvents = [
     location: 'Windsor Masonic Temple',
   },
   {
+    name: 'THE MORAMOS SHRINE CLUB',
+    imageUrl: '/images/events/ChristmasParty.png',
+    description:
+      'Hosting a Traditional Christmas Dinner Our Masonic Family and Friends Come Join Us',
+    date: 'SATURDAY, DECEMBER 2, 2023',
+    location: 'MOOSE LODGE HALL 777 Tecumseh Road W.',
+  },
+  {
     name: 'Windsor 403 2024 Installation',
     imageUrl: '/images/events/Group 3installation.png',
     description: 'The 2024 Installation of Windsor Lodge 403',
