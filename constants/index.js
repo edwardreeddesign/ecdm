@@ -380,6 +380,14 @@ export const upcomingEvents = [
   //   location: 'Essex Masonic Hall Essex',
   // },
   {
+    name: 'BOOK LAUNCH',
+    imageUrl: '/images/events/bookLaunch.png',
+    description:
+      "Canadians in a Forgotten War - a graphic read of the numerous experiences of the courage, patriotism and sacrifice of Canada's Veterans and Nursing Sisters of the Boer War.",
+    date: 'Thursday 26 October 2023 - 7:00 p.m.',
+    location: 'Windsor Masonic Lodge 986 Ouellette Avenue',
+  },
+  {
     name: 'Football Game and Tailgate Party',
     imageUrl: '/images/events/football.png',
     description:
