@@ -397,6 +397,14 @@ export const upcomingEvents = [
   },
 
   {
+    name: 'Ontario Masons - Worshipful Master Workshop',
+    imageUrl: '/images/events/workshop.png',
+    description:
+      'Membership Pillar Worshipful Master Workshop. Applicable to all aspiring to become Worshipful Master.',
+    date: 'Saturday November 25th at 9am',
+    location: 'Byron Masonic Centre 1292 Commissioners Road West, London',
+  },
+  {
     name: 'Halloween Day for the Kids',
     imageUrl: '/images/events/HalloweenEvent.png',
     description:
