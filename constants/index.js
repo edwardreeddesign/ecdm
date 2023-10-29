@@ -364,7 +364,7 @@ export const temples = [
         website: null,
         facebook: null,
         slug: 'st-andrews',
-        officialVisit: 'Friday October 13, 2023 at 7:30 pm',
+        officialVisit: 'Friday January 12, 2024 at 7:30 pm',
       },
     ],
   },
@@ -482,6 +482,6 @@ export const trestleBoard = [
   {
     lodge: "St. Andrew's 642",
     installation: 'Friday December 8, 2023 at 7:00pm',
-    officialVisit: 'Friday October 13, 2023 at 7:30pm',
+    officialVisit: 'Friday January 12, 2024 at 7:30pm',
   },
 ];
