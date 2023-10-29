@@ -379,22 +379,6 @@ export const upcomingEvents = [
   //   date: 'Monday September 18, 2023',
   //   location: 'Essex Masonic Hall Essex',
   // },
-  {
-    name: 'BOOK LAUNCH',
-    imageUrl: '/images/events/bookLaunch.png',
-    description:
-      "Canadians in a Forgotten War - a graphic read of the numerous experiences of the courage, patriotism and sacrifice of Canada's Veterans and Nursing Sisters of the Boer War.",
-    date: 'Thursday 26 October 2023 - 7:00 p.m.',
-    location: 'Windsor Masonic Lodge 986 Ouellette Avenue',
-  },
-  {
-    name: 'Football Game and Tailgate Party',
-    imageUrl: '/images/events/football.png',
-    description:
-      'Raffle for Michigan Wolverines vs Purdue Boilermakers. Includes a tailgate party in the stadium parking lot with Ross Mitton of Assante Wealth Management at his converted ambulance - Mbulance and barbeque trailer.',
-    date: 'draw date October 27, 2023',
-    location: 'Windsor Masonic Temple Coffee Club',
-  },
 
   {
     name: 'Ontario Masons - Worshipful Master Workshop',
@@ -404,14 +388,7 @@ export const upcomingEvents = [
     date: 'Saturday November 25th at 9am',
     location: 'Byron Masonic Centre 1292 Commissioners Road West, London',
   },
-  {
-    name: 'Halloween Day for the Kids',
-    imageUrl: '/images/events/HalloweenEvent.png',
-    description:
-      'Special Halloween day for the Kids. Open to all Masonic families and Friends',
-    date: 'Saturday October 28th, 2023',
-    location: 'Windsor Masonic Temple',
-  },
+
   {
     name: 'THE MORAMOS SHRINE CLUB',
     imageUrl: '/images/events/ChristmasParty.png',
