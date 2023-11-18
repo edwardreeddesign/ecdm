@@ -276,7 +276,7 @@ export const temples = [
         website: 'https://www.windsorlodge403.com',
         facebook: 'https://www.facebook.com/groups/944181565592364/',
         slug: 'windsor-lodge',
-        officialVisit: 'March 1, 2024 at 7:30 pm Blue Room',
+        officialVisit: 'February 2, 2024 at 7:30 pm Blue Room',
       },
       {
         name: 'Rose Lodge 500',
@@ -442,7 +442,7 @@ export const trestleBoard = [
   {
     lodge: 'Windsor 403',
     installation: 'Friday January 19, 2024 at 7:30pm',
-    officialVisit: 'Friday March 1, 2024 at 7:30pm',
+    officialVisit: 'Friday February 2, 2024 at 7:30pm',
   },
   {
     lodge: 'Naphtali 413',
