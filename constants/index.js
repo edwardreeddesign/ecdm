@@ -12,6 +12,10 @@ export const navLinks = [
     url: '/district',
   },
   {
+    name: 'Heritage Lodge',
+    url: '/heritageLodge',
+  },
+  {
     name: 'Lodges',
     url: '/lodges',
   },
