@@ -4,13 +4,20 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { navLinks } from '../../constants';
 import { useRouter } from 'next/router';
+import DropdownLink from '../../helpers/DropdownLink';
+import { Menu } from '@headlessui/react';
+import { BiSolidDownArrow } from 'react-icons/bi';
+import { useDropdown } from '../../helpers/DropdownProvider';
 
 const Mobile = () => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
-
+  const [isOpenArrow, setIsOpenArrow] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
+  };
+  const toggleArrow = () => {
+    setIsOpenArrow(!isOpenArrow);
   };
 
   return (
@@ -41,16 +48,56 @@ const Mobile = () => {
         >
           <ul className="h-full flex flex-col justify-around items-center relative pt-10">
             {navLinks.map(link => (
-              <li key={link.name}>
-                <Link
-                  href={link.url}
-                  className={`${
-                    router.pathname === link.url ? 'mobile-active' : ''
-                  } text-light2 text-2xl tracking-wide cursor-pointer	`}
-                  onClick={toggle}
-                >
-                  {link.name}
-                </Link>
+              <li key={link.name} className="text-light2 relative">
+                {link.dropdownLinks && link.dropdownLinks.length > 0 ? (
+                  <Menu as="div" className="relative inline-block z-50">
+                    <Menu.Button
+                      className={`flex items-center gap-1 ${
+                        router.pathname === link.url ||
+                        link.dropdownLinks.some(
+                          dropdownLink => router.pathname === dropdownLink.url
+                        )
+                          ? 'active'
+                          : ''
+                      }`}
+                      onClick={toggleArrow}
+                    >
+                      {link.name}
+                      <span
+                        style={{
+                          transition: 'transform 0.3s ease-in-out',
+                          transform: `rotate(${isOpenArrow ? '180deg' : '0'})`,
+                          display: 'inline-block', // Ensures the span doesn't take up the full width
+                        }}
+                      >
+                        <BiSolidDownArrow />
+                      </span>
+                    </Menu.Button>
+                    <Menu.Items className="absolute right-0 w-56 origin-top-right bg-main1 p-2 shadow-lg rounded-md flex flex-col">
+                      {link.dropdownLinks.map(dropdownLink => (
+                        <Menu.Item key={dropdownLink.name}>
+                          <DropdownLink
+                            className={`dropdown-link ${
+                              router.pathname === dropdownLink.url
+                                ? 'active'
+                                : ''
+                            }`}
+                            href={dropdownLink.url}
+                          >
+                            {dropdownLink.name}
+                          </DropdownLink>
+                        </Menu.Item>
+                      ))}
+                    </Menu.Items>
+                  </Menu>
+                ) : (
+                  <Link
+                    href={link.url}
+                    className={router.pathname === link.url ? 'active' : ''}
+                  >
+                    {link.name}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>

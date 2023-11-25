@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import { DropdownProvider } from '../helpers/DropdownProvider';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <DropdownProvider>
+      <Component {...pageProps} />
+    </DropdownProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;

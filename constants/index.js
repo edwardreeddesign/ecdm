@@ -10,11 +10,23 @@ export const navLinks = [
   {
     name: 'District',
     url: '/district',
+    dropdownLinks: [
+      {
+        name: 'District',
+        url: '/district',
+      },
+      {
+        name: 'Heritage Lodge',
+        url: '/heritageLodge',
+      },
+      {
+        name: 'War Memorial',
+        url: '/warMemorial',
+      },
+      // Add more dropdown links as needed
+    ],
   },
-  {
-    name: 'Heritage Lodge',
-    url: '/heritageLodge',
-  },
+
   {
     name: 'Lodges',
     url: '/lodges',
