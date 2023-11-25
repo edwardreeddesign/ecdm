@@ -45,8 +45,8 @@ const WarMemorialPage = () => {
             Jessop, Pike, and Smith; Parliament, Daniels, and Brocklebank;
             Sanders, Miller, and Fleming; Shepley, Thornton, and Hayhurst stand
             among the honored 26 local Freemasons whose names are etched with
-            reverence on the Masonic War Memorial, situated in Windsor's Malden
-            Park at 4200 Malden Road.
+            reverence on the Masonic War Memorial, situated in Windsor&apos;s
+            Malden Park at 4200 Malden Road.
           </p>
           <p className="leading-4 text-sm lg:text-lg">
             Crafted from granite, the monument and memorial walkway bear the
@@ -69,19 +69,19 @@ const WarMemorialPage = () => {
             />
           </motion.div>
           <p className="leading-4 text-sm lg:text-lg">
-            "In commemorating the millennium, the Fraternity in Essex County
-            united in the building of the Masonic War Memorial at a cost of
-            $85,000", Lotz explains. "This tribute serves to remember local
-            Freemason Veterans who made the ultimate sacrifice defending
-            Canada".
+            &ldquo;In commemorating the millennium, the Fraternity in Essex
+            County united in the building of the Masonic War Memorial at a cost
+            of $85,000&ldquo;, Lotz explains. "This tribute serves to remember
+            local Freemason Veterans who made the ultimate sacrifice defending
+            Canada&ldquo;.
           </p>
           <p className="leading-4 text-sm lg:text-lg">
             For the last two decades, Lotz has been “leaning into it” for his
             latest book entitled “The Anguish of War.”
           </p>
           <p className="leading-4 text-sm lg:text-lg">
-            It illuminates the lives of those who "filled the ranks" —
-            individuals who resided in our neighborhoods, attended our local
+            It illuminates the lives of those who &ldquo;filled the ranks&ldquo;
+            — individuals who resided in our neighborhoods, attended our local
             schools, held public office, worked in offices, shops, and
             factories, and toiled on family farms throughout Essex County. Each
             page within this commemorative work encapsulates the indelible marks
@@ -101,19 +101,19 @@ const WarMemorialPage = () => {
             />
           </motion.div>
           <p className="leading-4 text-sm lg:text-lg">
-            “My book is meant to put a face to the lives of area Veterans who
-            were killed in action or who died as a result of injuries sustained
-            in battle,” says Lotz. “I am doing this because I feel that I am
-            bringing these young guys back home.”
+            &ldquo;My book is meant to put a face to the lives of area Veterans
+            who were killed in action or who died as a result of injuries
+            sustained in battle,&ldquo; says Lotz. &ldquo;I am doing this
+            because I feel that I am bringing these young guys back home.&ldquo;
           </p>
           <p className="leading-4 text-sm lg:text-lg">
-            While many who ventured "over there" grappled with the anguish of
-            war, families on the home front were equally hard-pressed to summon
-            the strength needed to navigate the bitter realities of the
-            conflict.
+            While many who ventured &ldquo;over there&ldquo; grappled with the
+            anguish of war, families on the home front were equally hard-pressed
+            to summon the strength needed to navigate the bitter realities of
+            the conflict.
           </p>
           <p className="leading-4 text-sm lg:text-lg">
-            Lotz's book poignantly encapsulates a remarkable instance that
+            Lotz&apos;s book poignantly encapsulates a remarkable instance that
             reflects the resilience of the human spirit.
           </p>
           <p className="leading-4 text-sm lg:text-lg">
@@ -123,17 +123,17 @@ const WarMemorialPage = () => {
             sacrifice at Dieppe on August 19, 1942, and another fell in Holland
             on November 23, 1944. Despite these profound losses, two of her
             remaining sons also valiantly served in World War II. The Rivait
-            family's sacrifice stands as a poignant testament to the deep and
-            widespread impact of the war on individual families.
+            family&apos;s sacrifice stands as a poignant testament to the deep
+            and widespread impact of the war on individual families.
           </p>
           <p className="leading-4 text-sm lg:text-lg">
             Veterans Affairs Canada bestowed upon Rivait three Memorial Crosses
-            in honor of her three sons' sacrifices. On November 11, 1964,
+            in honor of her three sons&apos; sacrifices. On November 11, 1964,
             Rivait, carrying the weight of not only her personal loss but also
             the collective grief for all those who never returned home,
-            presented a wreath at Ottawa's National War Memorial. Her solemn act
-            symbolized the enduring pain felt by families who endured the
-            profound impact of war.
+            presented a wreath at Ottawa&apos;s National War Memorial. Her
+            solemn act symbolized the enduring pain felt by families who endured
+            the profound impact of war.
           </p>
           <p className="leading-4 text-sm lg:text-lg">
             As we traverse through each generation, the essence of Remembrance
@@ -141,16 +141,17 @@ const WarMemorialPage = () => {
             service, courage, and loyalty.
           </p>
           <p className="leading-4 text-sm lg:text-lg">
-            In getting to know the many Veterans who "rallied to the colours,"
-            and in tribute to their unwavering valor and profound sacrifices,
-            each has rightfully earned a place of enduring distinction among the
-            ages. Their glory will not fade! Serving as a civilian Veterans
-            Advocate, Andrea Grimes received the Queen Elizabeth II Diamond
-            Jubilee Medal and the Governor General's Medal in recognition of her
-            dedicated volunteer service to Veterans and various non-profit
-            organizations supporting Windsor's military families' network. Her
-            commitment stands as a testament to the lasting impact and
-            appreciation for those who have served.
+            In getting to know the many Veterans who &ldquo;rallied to the
+            colours,&ldquo; and in tribute to their unwavering valor and
+            profound sacrifices, each has rightfully earned a place of enduring
+            distinction among the ages. Their glory will not fade! Serving as a
+            civilian Veterans Advocate, Andrea Grimes received the Queen
+            Elizabeth II Diamond Jubilee Medal and the Governor General&apos;s
+            Medal in recognition of her dedicated volunteer service to Veterans
+            and various non-profit organizations supporting Windsor&apos;s
+            military families&apos; network. Her commitment stands as a
+            testament to the lasting impact and appreciation for those who have
+            served.
           </p>
         </motion.div>
       </div>
