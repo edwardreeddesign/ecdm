@@ -54,7 +54,7 @@ const WarMemorialPage = () => {
             and were expertly fashioned by Excelsior Monuments. Lotz, with a
             lifelong dedication, has pursued the noble ambition of honoring the
             memory of those individuals who never hesitated to embody the
-            principle of "doing the right thing."
+            principle of &ldquo;doing the right thing.&ldquo;
           </p>
           <motion.div
             variants={photoFadeIn}
@@ -71,9 +71,9 @@ const WarMemorialPage = () => {
           <p className="leading-4 text-sm lg:text-lg">
             &ldquo;In commemorating the millennium, the Fraternity in Essex
             County united in the building of the Masonic War Memorial at a cost
-            of $85,000&ldquo;, Lotz explains. "This tribute serves to remember
-            local Freemason Veterans who made the ultimate sacrifice defending
-            Canada&ldquo;.
+            of $85,000&ldquo;, Lotz explains. &ldquo;This tribute serves to
+            remember local Freemason Veterans who made the ultimate sacrifice
+            defending Canada&ldquo;.
           </p>
           <p className="leading-4 text-sm lg:text-lg">
             For the last two decades, Lotz has been “leaning into it” for his
