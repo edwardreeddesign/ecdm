@@ -50,11 +50,11 @@ const WarMemorialPage = () => {
           </p>
           <p className="leading-4 text-sm lg:text-lg">
             Crafted from granite, the monument and memorial walkway bear the
-            meticulous design of Windsor Freemason Historian Deacon Gene Lotz
-            and were expertly fashioned by Excelsior Monuments. Lotz, with a
-            lifelong dedication, has pursued the noble ambition of honoring the
-            memory of those individuals who never hesitated to embody the
-            principle of &ldquo;doing the right thing.&ldquo;
+            meticulous design of Windsor Freemason Historian Deacon V.W. Bro.
+            Gene Lotz and were expertly fashioned by Excelsior Monuments. Lotz,
+            with a lifelong dedication, has pursued the noble ambition of
+            honoring the memory of those individuals who never hesitated to
+            embody the principle of &ldquo;doing the right thing.&ldquo;
           </p>
           <motion.div
             variants={photoFadeIn}
