@@ -397,6 +397,14 @@ export const upcomingEvents = [
   // },
 
   {
+    name: 'Thistle Lodge Cornhole League',
+    imageUrl: '/images/events/cornhole.png',
+    description: 'Thistle Lodge 2024 Cornhole League.',
+    date: 'Starting January 8th, 2024',
+    location: '68 MURRAY ST. AMHERSTBURG',
+  },
+
+  {
     name: 'Windsor 403 2024 Installation',
     imageUrl: '/images/events/Group 3installation.png',
     description: 'The 2024 Installation of Windsor Lodge 403',
