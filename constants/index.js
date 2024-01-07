@@ -418,6 +418,15 @@ export const upcomingEvents = [
     date: 'Saturday January 20th, 2024,',
     location: 'Windsor Masonic Temple',
   },
+
+  {
+    name: 'Thistle Lodge Super Bowl LVIII Party',
+    imageUrl: '/images/events/superbowl.pdf',
+    description:
+      'COME WATCH THE BIG GAME ON THE BIGGEST SCREEN IN WINDSOR/ESSEX',
+    date: 'Sunday February 11th, 2024',
+    location: '68 MURRAY ST. AMHERSTBURG',
+  },
 ];
 
 export const trestleBoard = [
