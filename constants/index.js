@@ -419,21 +419,20 @@ export const upcomingEvents = [
     location: 'Windsor Masonic Temple',
   },
   {
-    name: "St. Patty's 2024",
-    imageUrl: '/images/events/StPattysFlyer.jpg',
-    description:
-      "Parvaim-Central and Order of the Eastern Star Chapter No. 19 St. Patty's Day Irish Diner",
-    date: 'Saturday March 16th, 2024,',
-    location: 'Essex Masonic Temple 30 Laird Ave Essex On',
-  },
-
-  {
     name: 'Thistle Lodge Super Bowl LVIII Party',
     imageUrl: '/images/events/superbowl.pdf',
     description:
       'COME WATCH THE BIG GAME ON THE BIGGEST SCREEN IN WINDSOR/ESSEX',
     date: 'Sunday February 11th, 2024',
     location: '68 MURRAY ST. AMHERSTBURG',
+  },
+  {
+    name: "St. Patty's 2024",
+    imageUrl: '/images/events/StPattysFlyer.jpg',
+    description:
+      "Parvaim-Central and Order of the Eastern Star Chapter No. 19 St. Patty's Day Irish Diner",
+    date: 'Saturday March 16th, 2024,',
+    location: 'Essex Masonic Temple 30 Laird Ave Essex On',
   },
 ];
 
