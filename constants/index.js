@@ -418,6 +418,14 @@ export const upcomingEvents = [
     date: 'Saturday January 20th, 2024,',
     location: 'Windsor Masonic Temple',
   },
+  {
+    name: "St. Patty's 2024",
+    imageUrl: '/images/events/StPattysFlyer.jpg',
+    description:
+      "Parvaim-Central and Order of the Eastern Star Chapter No. 19 St. Patty's Day Irish Diner",
+    date: 'Saturday March 16th, 2024,',
+    location: 'Essex Masonic Temple 30 Laird Ave Essex On',
+  },
 
   {
     name: 'Thistle Lodge Super Bowl LVIII Party',
