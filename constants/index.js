@@ -434,6 +434,22 @@ export const upcomingEvents = [
     date: 'Saturday March 16th, 2024,',
     location: 'Essex Masonic Temple 30 Laird Ave Essex On',
   },
+  {
+    name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation',
+    imageUrl: '/images/events/amalgamationflyer.pdf',
+    description:
+      'Brothers all are welcome to attend this glorious eveningwhere two lodges reunite as one. ',
+    date: 'Tuesday April 16th, 2024,',
+    location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
+  },
+  {
+    name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation Banquet',
+    imageUrl: '/images/events/amalgamationNotice.pdf',
+    description:
+      'Brothers all are welcome to attend this glorious eveningwhere two lodges reunite as one. ',
+    date: 'Tuesday April 16th, 2024,',
+    location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
+  },
 ];
 
 export const trestleBoard = [
