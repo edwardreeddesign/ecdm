@@ -387,14 +387,14 @@ export const temples = [
 ];
 
 export const upcomingEvents = [
-  // {
-  //   name: 'Essex County District Masonic Association',
-  //   imageUrl: '/images/events/ECDMA_SEPT_18_2023_AGENDA.png',
-  //   description:
-  //     'Essex County District Masonic Association agenda. Plan to attend and support Your District',
-  //   date: 'Monday September 18, 2023',
-  //   location: 'Essex Masonic Hall Essex',
-  // },
+  {
+    name: 'Essex County District Masonic Association',
+    imageUrl: '/images/events/ECDMAEmergent.pdf',
+    description:
+      'Essex County District Masonic Association Emergent Meeting. Plan to attend and support Your District',
+    date: 'Thursday, February 22, 2024',
+    location: 'Essex Masonic Hall Essex',
+  },
 
   {
     name: 'Thistle Lodge Cornhole League',
@@ -404,20 +404,6 @@ export const upcomingEvents = [
     location: '68 MURRAY ST. AMHERSTBURG',
   },
 
-  {
-    name: 'Windsor 403 2024 Installation',
-    imageUrl: '/images/events/Group 3installation.png',
-    description: 'The 2024 Installation of Windsor Lodge 403',
-    date: 'Friday January 19th, 2024',
-    location: 'Windsor Masonic Temple',
-  },
-  {
-    name: 'For The Next 100 Years',
-    imageUrl: '/images/events/100year.png',
-    description: 'Join us as we unveil the work done on the Masonic Temple.',
-    date: 'Saturday January 20th, 2024,',
-    location: 'Windsor Masonic Temple',
-  },
   {
     name: 'Thistle Lodge Super Bowl LVIII Party',
     imageUrl: '/images/events/superbowl.pdf',
