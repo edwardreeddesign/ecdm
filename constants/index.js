@@ -387,14 +387,14 @@ export const temples = [
 ];
 
 export const upcomingEvents = [
-  {
-    name: 'Essex County District Masonic Association',
-    imageUrl: '/images/events/ECDMAEmergent.pdf',
-    description:
-      'Essex County District Masonic Association Emergent Meeting. Plan to attend and support Your District',
-    date: 'Thursday, February 22, 2024',
-    location: 'Essex Masonic Hall Essex',
-  },
+  // {
+  //   name: 'Essex County District Masonic Association',
+  //   imageUrl: '/images/events/ECDMAEmergent.pdf',
+  //   description:
+  //     'Essex County District Masonic Association Emergent Meeting. Plan to attend and support Your District',
+  //   date: 'Thursday, February 22, 2024',
+  //   location: 'Essex Masonic Hall Essex',
+  // },
 
   {
     name: 'Thistle Lodge Cornhole League',
