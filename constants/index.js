@@ -389,7 +389,7 @@ export const temples = [
 export const upcomingEvents = [
   {
     name: 'Essex County District Masonic Association',
-    imageUrl: '/images/events/cancel.pdf',
+    imageUrl: '/images/events/cancel.png',
     description:
       'The previously scheduled meeting for February 22nd has been determined that it is not necessary at this time. Sorry for any inconvenience this may have caused. ',
     date: 'Thursday, February 22, 2024',
