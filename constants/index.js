@@ -484,7 +484,7 @@ export const trestleBoard = [
   {
     lodge: 'Border Cities 554',
     installation: 'Wednesday October 4, 2023 at 11am',
-    officialVisit: 'Wednesday February 7, 2024 at 11am',
+    officialVisit: 'Wednesday April 3, 2024 at 11am',
   },
   {
     lodge: 'Harmony 579',
