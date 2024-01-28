@@ -124,8 +124,7 @@ export const temples = [
         image: '/images/lodges/kingsville.png',
         mainImage: '/images/logos/logo.png',
         ctaImage: '/images/logos/logo.png',
-        historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+        historyParagraph1: '',
         meeting: 'First Thursday at 7:30 PM except for July and August',
         installation: 'January 4, 2024 at 7:30 pm',
         website: null,
@@ -173,8 +172,7 @@ export const temples = [
         image: '/images/lodges/leamington.png',
         mainImage: '/images/lodges/leamingtonMain.jpeg',
         ctaImage: '/images/logos/logo.png',
-        historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+        historyParagraph1: '',
         meeting: 'Third Thursday at 8:00 PM except for July and August',
         installation: 'December 21, 2023 at 7:30 pm',
         website: null,
@@ -197,8 +195,7 @@ export const temples = [
         image: '/images/lodges/peleeMain.jpeg',
         mainImage: '/images/lodges/peleeMain.jpeg',
         ctaImage: '/images/logos/logo.png',
-        historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+        historyParagraph1: '',
         meeting:
           'Second Saturday at Noon in May, June, July, August, September.',
         installation: 'September 9, 2023 at 12:00 noon',
@@ -221,8 +218,7 @@ export const temples = [
         image: '/images/lodges/tilbury.png',
         mainImage: '/images/lodges/naphtaliMain.jpeg',
         ctaImage: '/images/logos/logo.png',
-        historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+        historyParagraph1: '',
         meeting:
           'Meeting Second Tuesday of the Month Except July & August 7:30 pm',
         installation: 'December 12, 2023 at 7:30 pm',
@@ -300,8 +296,7 @@ export const temples = [
         secondImage: '',
         thirdImage: '',
         fourthImage: '',
-        historyParagraph1:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia delectus optio dolorem officia consequuntur commodi quisquam facilis magnam sequi dolores iste ad repudiandae quidem nisi excepturi fuga natus accusamus?Suscipit, perferendis! Eaque neque, voluptatum asperiores eligendi expedit sit fugit perferendis.',
+        historyParagraph1: '',
         ctaImage: '/images/logos/logo.png',
         meeting: 'Second Wednesday at 8:00 PM except for July and August',
         installation: 'December 13, 2023 at 7:30 pm Red Room',
@@ -340,15 +335,14 @@ export const temples = [
         thirdImage: '',
         fourthImage: '',
         ctaImage: '/images/logos/blackLogo.png',
-        historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+        historyParagraph1: '',
         meeting:
           'First Wednesday of February, April, May, October and December at 11:00 AM',
         installation: 'October 4, 2023 at 11:00 am',
         website: null,
         facebook: null,
         slug: 'border-cities',
-        officialVisit: 'February 7, 2023 at 11:00 am',
+        officialVisit: 'April 3, 2023 at 11:00 am',
       },
       {
         name: 'Harmony Lodge 579',
@@ -357,8 +351,7 @@ export const temples = [
         thirdImage: '',
         fourthImage: '',
         ctaImage: '/images/logos/logo.png',
-        historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+        historyParagraph1: '',
         meeting: 'First Thursday at 7:30 PM except for July and August',
         installation: 'Saturday December 2, 2022 at 2 pm',
         website: null,
@@ -373,8 +366,7 @@ export const temples = [
         thirdImage: '',
         fourthImage: '',
         ctaImage: '/images/logos/logo.png',
-        historyParagraph1:
-          'orem ipsum dolor sit amet, vidit mandamus moderatius ad sed. Id quod complectitur',
+        historyParagraph1: '',
         meeting: 'Second Friday at 7:30 PM except for July and August',
         installation: 'Friday December 8, 2023 at 7:30 pm',
         website: null,
