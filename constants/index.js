@@ -413,6 +413,14 @@ export const upcomingEvents = [
     location: 'Essex Masonic Temple 30 Laird Ave Essex On',
   },
   {
+    name: "London's Day of Masonry: A Legacy of Excellence",
+    imageUrl: '/images/events/dayofmasonry.pdf',
+    description:
+      'Keynote Speaker : 3:00PM Deputy Grand Master: R.W. Bro. Jamie Ireland',
+    date: 'Saturday April 6th, 2024,',
+    location: 'London Masonic Centre 453 Dufferin Ave, London, Ontario,',
+  },
+  {
     name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation',
     imageUrl: '/images/events/amalgamationflyer.pdf',
     description:
