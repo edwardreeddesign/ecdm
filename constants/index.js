@@ -380,15 +380,6 @@ export const temples = [
 
 export const upcomingEvents = [
   {
-    name: 'Essex County District Masonic Association',
-    imageUrl: '/images/events/cancel.png',
-    description:
-      'The previously scheduled meeting for February 22nd has been determined that it is not necessary at this time. Sorry for any inconvenience this may have caused. ',
-    date: 'Thursday, February 22, 2024',
-    location: 'Essex Masonic Hall Essex',
-  },
-
-  {
     name: 'Thistle Lodge Cornhole League',
     imageUrl: '/images/events/cornhole.png',
     description: 'Thistle Lodge 2024 Cornhole League.',
@@ -396,14 +387,6 @@ export const upcomingEvents = [
     location: '68 MURRAY ST. AMHERSTBURG',
   },
 
-  {
-    name: 'Thistle Lodge Super Bowl LVIII Party',
-    imageUrl: '/images/events/superbowl.pdf',
-    description:
-      'COME WATCH THE BIG GAME ON THE BIGGEST SCREEN IN WINDSOR/ESSEX',
-    date: 'Sunday February 11th, 2024',
-    location: '68 MURRAY ST. AMHERSTBURG',
-  },
   {
     name: "St. Patty's 2024",
     imageUrl: '/images/events/StPattysFlyer.jpg',
