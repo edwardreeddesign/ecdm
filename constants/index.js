@@ -405,7 +405,7 @@ export const upcomingEvents = [
   },
   {
     name: 'Chili Cook Off – 2nd Annual Fort Malden Chapter - Order of the Eastern Star',
-    imageUrl: '/images/events/chilli.pdf',
+    imageUrl: '/images/events/Chilli.pdf',
     description:
       'Fort Malden Chapter - Order of the Eastern Star Invites you to a Chili Cook off ',
     date: 'Saturday, April 20, 2024    ,',
