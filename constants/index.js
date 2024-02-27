@@ -404,6 +404,14 @@ export const upcomingEvents = [
     location: 'London Masonic Centre 453 Dufferin Ave, London, Ontario,',
   },
   {
+    name: 'Chili Cook Off – 2nd Annual Fort Malden Chapter - Order of the Eastern Star',
+    imageUrl: '/images/events/chilli.pdf',
+    description:
+      'Fort Malden Chapter - Order of the Eastern Star Invites you to a Chili Cook off ',
+    date: 'Saturday, April 20, 2024    ,',
+    location: '68 Murray Street, Amherstburg, Ontario,',
+  },
+  {
     name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation',
     imageUrl: '/images/events/amalgamationflyer.pdf',
     description:
