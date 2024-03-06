@@ -416,7 +416,7 @@ export const upcomingEvents = [
     imageUrl: '/images/events/amalgamationflyer.pdf',
     description:
       'Brothers all are welcome to attend this glorious eveningwhere two lodges reunite as one. ',
-    date: 'Tuesday April 16th, 2024,',
+    date: 'Tuesday April 16th, 2024',
     location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
   },
   {
@@ -424,8 +424,16 @@ export const upcomingEvents = [
     imageUrl: '/images/events/amalgamationNotice.pdf',
     description:
       'Brothers all are welcome to attend this glorious eveningwhere two lodges reunite as one. ',
-    date: 'Tuesday April 16th, 2024,',
+    date: 'Tuesday April 16th, 2024',
     location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
+  },
+  {
+    name: 'ESSEX COUNTY DISTRICT ANNUAL FISH FRY',
+    imageUrl: '/images/events/fistfry.pdf',
+    description:
+      'Sponsor Lodges Border Cities 554 - Great Western 47 Come Enjoy the Great Food and Friendship. ',
+    date: 'Saturday, June 1, 2024',
+    location: 'Essex Masonic Temple Hall 30 Laird Street Essex, ON',
   },
 ];
 
