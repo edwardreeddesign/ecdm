@@ -415,7 +415,7 @@ export const upcomingEvents = [
     name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation',
     imageUrl: '/images/events/amalgamationflyer.pdf',
     description:
-      'Brothers all are welcome to attend this glorious eveningwhere two lodges reunite as one. ',
+      'Brothers all are welcome to attend this glorious evening where two lodges reunite as one. ',
     date: 'Tuesday April 16th, 2024',
     location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
   },
@@ -423,13 +423,13 @@ export const upcomingEvents = [
     name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation Banquet',
     imageUrl: '/images/events/amalgamationNotice.pdf',
     description:
-      'Brothers all are welcome to attend this glorious eveningwhere two lodges reunite as one. ',
+      'Brothers all are welcome to attend this glorious evening where two lodges reunite as one. ',
     date: 'Tuesday April 16th, 2024',
     location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
   },
   {
     name: 'ESSEX COUNTY DISTRICT ANNUAL FISH FRY',
-    imageUrl: '/images/events/fistfry.pdf',
+    imageUrl: '/images/events/fishfry.pdf',
     description:
       'Sponsor Lodges Border Cities 554 - Great Western 47 Come Enjoy the Great Food and Friendship. ',
     date: 'Saturday, June 1, 2024',
