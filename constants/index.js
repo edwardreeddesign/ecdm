@@ -380,6 +380,14 @@ export const temples = [
 
 export const upcomingEvents = [
   {
+    name: 'BETWEEN AND BEYOND THE PILLARS',
+    imageUrl: '/images/events/betweenposter.pdf',
+    description:
+      'INTRODUCING BETWEEN AND BEYOND THE PILLARS: THE HISTORY OF WINDSOR LODGE NO. 403 & THE ESSEX COUNTY MASONIC DISTRICT;',
+    date: 'On Sale Now',
+    location: 'Contact V.W. Bro. Gene Lotz',
+  },
+  {
     name: 'Thistle Lodge Cornhole League',
     imageUrl: '/images/events/cornhole.png',
     description: 'Thistle Lodge 2024 Cornhole League.',
