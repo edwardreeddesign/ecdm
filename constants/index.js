@@ -396,22 +396,6 @@ export const upcomingEvents = [
   },
 
   {
-    name: "St. Patty's 2024",
-    imageUrl: '/images/events/StPattysFlyer.jpg',
-    description:
-      "Parvaim-Central and Order of the Eastern Star Chapter No. 19 St. Patty's Day Irish Diner",
-    date: 'Saturday March 16th, 2024,',
-    location: 'Essex Masonic Temple 30 Laird Ave Essex On',
-  },
-  {
-    name: "London's Day of Masonry: A Legacy of Excellence",
-    imageUrl: '/images/events/dayofmasonry.pdf',
-    description:
-      'Keynote Speaker : 3:00PM Deputy Grand Master: R.W. Bro. Jamie Ireland',
-    date: 'Saturday April 6th, 2024,',
-    location: 'London Masonic Centre 453 Dufferin Ave, London, Ontario,',
-  },
-  {
     name: 'Chili Cook Off – 2nd Annual Fort Malden Chapter - Order of the Eastern Star',
     imageUrl: '/images/events/Chilli.pdf',
     description:
