@@ -167,19 +167,19 @@ export const temples = [
         slug: 'leamington-lodge',
         officialVisit: 'March 19, 2024 at 7:30 pm',
       },
-      {
-        name: 'Xenophon 448',
-        image: '/images/lodges/leamington.png',
-        mainImage: '/images/lodges/leamingtonMain.jpeg',
-        ctaImage: '/images/logos/logo.png',
-        historyParagraph1: '',
-        meeting: 'Third Thursday at 8:00 PM except for July and August',
-        installation: 'December 21, 2023 at 7:30 pm',
-        website: null,
-        facebook: null,
-        slug: 'xenophon',
-        officialVisit: 'March 21, 2024 at 7:30 pm',
-      },
+      // {
+      //   name: 'Xenophon 448',
+      //   image: '/images/lodges/leamington.png',
+      //   mainImage: '/images/lodges/leamingtonMain.jpeg',
+      //   ctaImage: '/images/logos/logo.png',
+      //   historyParagraph1: '',
+      //   meeting: 'Third Thursday at 8:00 PM except for July and August',
+      //   installation: 'December 21, 2023 at 7:30 pm',
+      //   website: null,
+      //   facebook: null,
+      //   slug: 'xenophon',
+      //   officialVisit: 'March 21, 2024 at 7:30 pm',
+      // },
     ],
   },
   {
@@ -403,22 +403,22 @@ export const upcomingEvents = [
     date: 'Saturday, April 20, 2024    ,',
     location: '68 Murray Street, Amherstburg, Ontario,',
   },
-  {
-    name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation',
-    imageUrl: '/images/events/amalgamationflyer.pdf',
-    description:
-      'Brothers all are welcome to attend this glorious evening where two lodges reunite as one. ',
-    date: 'Tuesday April 16th, 2024',
-    location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
-  },
-  {
-    name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation Banquet',
-    imageUrl: '/images/events/amalgamationNotice.pdf',
-    description:
-      'Brothers all are welcome to attend this glorious evening where two lodges reunite as one. ',
-    date: 'Tuesday April 16th, 2024',
-    location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
-  },
+  // {
+  //   name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation',
+  //   imageUrl: '/images/events/amalgamationflyer.pdf',
+  //   description:
+  //     'Brothers all are welcome to attend this glorious evening where two lodges reunite as one. ',
+  //   date: 'Tuesday April 16th, 2024',
+  //   location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
+  // },
+  // {
+  //   name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation Banquet',
+  //   imageUrl: '/images/events/amalgamationNotice.pdf',
+  //   description:
+  //     'Brothers all are welcome to attend this glorious evening where two lodges reunite as one. ',
+  //   date: 'Tuesday April 16th, 2024',
+  //   location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
+  // },
   {
     name: 'ESSEX COUNTY DISTRICT ANNUAL FISH FRY',
     imageUrl: '/images/events/fishfry.pdf',
@@ -443,12 +443,12 @@ export const trestleBoard = [
   {
     lodge: 'Great Western 47',
     installation: 'Thursday December 7, 2023 at 7:30pm',
-    officialVisit: 'Thursday June 6th at 7:30pm',
+    officialVisit: 'Thursday June 6 at 7:30pm',
   },
   {
     lodge: 'Leamington 290',
     installation: 'Tuesday June 18, 2024 at 7:30pm',
-    officialVisit: 'Tuesday March 19, 2024 at 7:30pm',
+    officialVisit: 'Thursday May 16, 2024 at 7:30pm',
   },
   {
     lodge: 'Parvaim-Central 395',
@@ -465,11 +465,11 @@ export const trestleBoard = [
     installation: 'Tuesday December 12, 2023 at 7:30pm',
     officialVisit: 'Tuesday March 12, 2024 at 7:30pm',
   },
-  {
-    lodge: 'Xenophon 448',
-    installation: 'Thursday December 21, 2023 at 8:00pm',
-    officialVisit: 'Thursday March 21, 2023 at 8:00pm',
-  },
+  // {
+  //   lodge: 'Xenophon 448',
+  //   installation: 'Thursday December 21, 2023 at 8:00pm',
+  //   officialVisit: 'Thursday March 21, 2023 at 8:00pm',
+  // },
   {
     lodge: 'Rose 500',
     installation: 'Wednesday Dec 13, 2023 at 7:30pm',
