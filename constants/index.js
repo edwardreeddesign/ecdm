@@ -396,30 +396,6 @@ export const upcomingEvents = [
   },
 
   {
-    name: 'Chili Cook Off – 2nd Annual Fort Malden Chapter - Order of the Eastern Star',
-    imageUrl: '/images/events/Chilli.pdf',
-    description:
-      'Fort Malden Chapter - Order of the Eastern Star Invites you to a Chili Cook off ',
-    date: 'Saturday, April 20, 2024    ,',
-    location: '68 Murray Street, Amherstburg, Ontario,',
-  },
-  // {
-  //   name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation',
-  //   imageUrl: '/images/events/amalgamationflyer.pdf',
-  //   description:
-  //     'Brothers all are welcome to attend this glorious evening where two lodges reunite as one. ',
-  //   date: 'Tuesday April 16th, 2024',
-  //   location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
-  // },
-  // {
-  //   name: 'Leaminton No. 290 & Xenophon No. 448 Amalgamation Banquet',
-  //   imageUrl: '/images/events/amalgamationNotice.pdf',
-  //   description:
-  //     'Brothers all are welcome to attend this glorious evening where two lodges reunite as one. ',
-  //   date: 'Tuesday April 16th, 2024',
-  //   location: 'Leamington Masonic Lodge Hall 3 John St. Leamington Ont.',
-  // },
-  {
     name: 'ESSEX COUNTY DISTRICT ANNUAL FISH FRY',
     imageUrl: '/images/events/fishfry.pdf',
     description:
@@ -448,7 +424,7 @@ export const trestleBoard = [
   {
     lodge: 'Leamington 290',
     installation: 'Tuesday June 18, 2024 at 7:30pm',
-    officialVisit: 'Thursday May 16, 2024 at 7:30pm',
+    officialVisit: 'Thursday June 20, 2024 at 7:30pm',
   },
   {
     lodge: 'Parvaim-Central 395',
