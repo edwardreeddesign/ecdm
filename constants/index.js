@@ -387,13 +387,13 @@ export const upcomingEvents = [
     date: 'On Sale Now',
     location: 'Contact V.W. Bro. Gene Lotz',
   },
-  {
-    name: 'Thistle Lodge Cornhole League',
-    imageUrl: '/images/events/cornhole.png',
-    description: 'Thistle Lodge 2024 Cornhole League.',
-    date: 'Starting January 8th, 2024',
-    location: '68 MURRAY ST. AMHERSTBURG',
-  },
+  // {
+  //   name: 'Thistle Lodge Cornhole League',
+  //   imageUrl: '/images/events/cornhole.png',
+  //   description: 'Thistle Lodge 2024 Cornhole League.',
+  //   date: 'Starting January 8th, 2024',
+  //   location: '68 MURRAY ST. AMHERSTBURG',
+  // },
 
   {
     name: 'ESSEX COUNTY DISTRICT ANNUAL FISH FRY',
@@ -402,6 +402,14 @@ export const upcomingEvents = [
       'Sponsor Lodges Border Cities 554 - Great Western 47 Come Enjoy the Great Food and Friendship. ',
     date: 'Saturday, June 1, 2024',
     location: 'Essex Masonic Temple Hall 30 Laird Street Essex, ON',
+  },
+  {
+    name: 'ESSEX COUNTY DISTRICT DON WARNER MEMORIAL GOLF CLASSIC',
+    imageUrl: '/images/events/golfPoster.pdf',
+    description:
+      'Supporting the Essex County District and the S.R.C.F. Learning Centre. Helping children with Dyslexia of Windsor and Essex County. ',
+    date: 'Monday, August 12, 2024',
+    location: 'Pointe West Golf Club, 200 Golfwood Dr. Amherstburg.',
   },
 ];
 
