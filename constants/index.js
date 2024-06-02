@@ -396,14 +396,6 @@ export const upcomingEvents = [
   // },
 
   {
-    name: 'ESSEX COUNTY DISTRICT ANNUAL FISH FRY',
-    imageUrl: '/images/events/fishfry.pdf',
-    description:
-      'Sponsor Lodges Border Cities 554 - Great Western 47 Come Enjoy the Great Food and Friendship. ',
-    date: 'Saturday, June 1, 2024',
-    location: 'Essex Masonic Temple Hall 30 Laird Street Essex, ON',
-  },
-  {
     name: 'ESSEX COUNTY DISTRICT DON WARNER MEMORIAL GOLF CLASSIC',
     imageUrl: '/images/events/golfPoster.pdf',
     description:
