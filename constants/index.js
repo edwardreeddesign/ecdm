@@ -394,6 +394,14 @@ export const upcomingEvents = [
   //   date: 'Starting January 8th, 2024',
   //   location: '68 MURRAY ST. AMHERSTBURG',
   // },
+  {
+    name: 'Widows Sons South Detroit ',
+    imageUrl: '/images/events/IMG_6981.JPG',
+    description:
+      'Weekly Bike Night. No Bikes needed. Just Brotherhood and good times. Proceeds to the Windsor Cancer Foundation',
+    date: 'Wednesdays at 7pm',
+    location: "WINDSOR SPORTSMEN'S CLUB 2401 DOUGALL AVE., WINDSOR",
+  },
 
   {
     name: 'ESSEX COUNTY DISTRICT DON WARNER MEMORIAL GOLF CLASSIC',
