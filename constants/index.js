@@ -411,6 +411,15 @@ export const upcomingEvents = [
     date: 'Monday, August 12, 2024',
     location: 'Pointe West Golf Club, 200 Golfwood Dr. Amherstburg.',
   },
+
+  {
+    name: 'Widows Sons South Detroit - COME RIDE WITH US! ',
+    imageUrl: '/images/events/ride.jpg',
+    description:
+      'HELP THE WIDOWS SONS RAISE MONEY FOR THE WINDSOR CANCER CENTRE FOUNDATION.',
+    date: 'AUGUST 17. 2024',
+    location: "WINDSOR SPORTSMEN'S CLUB 2401 DOUGALL AVE., WINDSOR",
+  },
 ];
 
 export const trestleBoard = [
