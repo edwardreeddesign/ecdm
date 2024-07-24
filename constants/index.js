@@ -404,15 +404,6 @@ export const upcomingEvents = [
   },
 
   {
-    name: 'ESSEX COUNTY DISTRICT DON WARNER MEMORIAL GOLF CLASSIC',
-    imageUrl: '/images/events/golfPoster.pdf',
-    description:
-      'Supporting the Essex County District and the S.R.C.F. Learning Centre. Helping children with Dyslexia of Windsor and Essex County. ',
-    date: 'Monday, August 12, 2024',
-    location: 'Pointe West Golf Club, 200 Golfwood Dr. Amherstburg.',
-  },
-
-  {
     name: 'Widows Sons South Detroit - COME RIDE WITH US! ',
     imageUrl: '/images/events/ride.jpg',
     description:
