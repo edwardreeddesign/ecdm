@@ -395,6 +395,14 @@ export const upcomingEvents = [
   //   location: '68 MURRAY ST. AMHERSTBURG',
   // },
   {
+    name: 'Football Game And Tailgate Party ',
+    imageUrl: '/images/events/footballPoster.pdf',
+    description: 'UofM vs Northwestern raffle. Tickets are $20.00 ',
+    date: 'Saturday November 23rd, 2024',
+    location: 'Draw date November 15th, 2024',
+  },
+
+  {
     name: 'Widows Sons South Detroit ',
     imageUrl: '/images/events/IMG_6981.JPG',
     description:
