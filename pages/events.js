@@ -93,15 +93,17 @@ const EventsPage = () => {
             <div className="relative w-full h-80 md:h-96 mb-4">
               <button
                 onClick={() =>
-                  openModal('/images/events/trestle2023-2024Front.png')
+                  openModal(
+                    '/images/events/Essex County District Trestle Board 2024-2025'
+                  )
                 }
               >
-                <Image
+                {/* <Image
                   src="/images/events/trestle2023-2024Front.png"
                   alt="trestle board front"
                   layout="fill"
                   objectFit="contain"
-                />
+                /> */}
               </button>
             </div>
             <div className="relative w-full h-80 md:h-96 mb-4">
