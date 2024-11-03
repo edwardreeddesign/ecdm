@@ -94,12 +94,12 @@ const EventsPage = () => {
               <button
                 onClick={() =>
                   openModal(
-                    '/images/events/Essex County District Trestle Board 2024-2025'
+                    '/images/events/EssexCountyDistrictTrestleBoard2024-2025.pdf'
                   )
                 }
               >
                 <Image
-                  src="/images/events/Essex County District Trestle Board 2024-2025 2"
+                  src="/images/events/EssexCountyDistrictTrestleBoard2024-2025.pdf"
                   alt="trestle board front"
                   layout="fill"
                   objectFit="contain"
@@ -127,7 +127,7 @@ const EventsPage = () => {
           <div className="my-6">
             <a
               className="border-2 border-accent1 py-2 px-3 transition-all duration-300 hover:scale-95  ease-in"
-              href="/images/events/Essex County District Trestle Board 2024-2025"
+              href="/images/events/EssexCountyDistrictTrestleBoard2024-2025.pdf"
               download
             >
               Download Trestle Board
